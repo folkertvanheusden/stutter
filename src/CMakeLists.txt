@@ -4,7 +4,8 @@
 dpf_add_plugin(d_stutter
   TARGETS ladspa lv2 vst2
   FILES_DSP
-      stutter.cpp)
+      stutter.cpp
+      filter.cpp)
 
 target_include_directories(
   d_stutter PUBLIC ".")
